@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+
+ html{
+   background-image: url("img/background.png");
+   background-position: center;
+   background-repeat: repeat-y;
+   background-size: cover;
+   width: 100vw;
+  height: 100vh;
+ }
+
+.primero{
+  display: flex;
+  width: 95vw;
+  height:93vh;
+  /* border: solid 5px black; */
+  position: relative;
+  margin: auto;
+  top: 1em;
+}
+
+.col{
+  width: 21.8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.intro{
+  display: flex;
+  position: relative;
+}
+
+.nombre{
+ width:500px;
+  margin: 0;
+  display: flex;
+background-color: #4118a9;
+font-size: 2vw;
+color: white;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+position: relative;
+padding: 0.74em;
+justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.nombre2{
+  margin: 0;
+  width: 120px;
+  display: flex;
+background-color: white;
+font-size: 2vw;
+color:  #4118a9;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+position: relative;
+padding: 0.74em;
+justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+
+.foto{
+  color: white;
+height: 100%;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+position: relative;
+  background-color: #4118a9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mail{
+  text-decoration: none;
+  color: white;
+}
+
+
+.curr{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.curr p {
+  color: white;
+  width: 400px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  padding-left: 20px;
+}
+
+.curr h2 {
+  color: #4118a9;
+  width: 400px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: white;
+  display: flex;
+  margin-top: auto;
+  padding-left: 20px;
+}
+
+.primera{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.primera article{
+background-color: #4118a9;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+ .letra{
+   margin:0;
+   font-size: 12px;
+ }
+
+.orientar{
+  display: flex;
+  height: 450px;
+  flex-direction: column;
+ 
+}
